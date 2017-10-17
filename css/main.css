@@ -1,0 +1,104 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+/*NAVIGATION*/
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #333;
+	height: 44px;
+}
+
+ul li {
+	height: 44px;
+	line-height: 44px; /** will set a default line size for inline elements like a**/
+	vertical-align: middle; /** will align text in a middle of line**/
+}
+/* for navigation bar to let
+user know which page they are on*/
+.active{
+	color: white;
+	background-color: #333;
+}
+/*black box around nav menu*/
+li a {
+	display: inline-block;
+	/*removes lines from hyperlinks*/
+	text-decoration: none;
+	color:white;
+}
+
+li  {
+	display: inline-block;
+	width: 100px;
+
+}
+
+nav.navigation{
+	text-align: center;
+	font-size: 17px;
+}
+
+
+a  {
+	background-color: black;
+}
+
+
+
+.logo {
+	height: 44px;
+    background-repeat: no-repeat;
+    background-image: url(../img/image_large.svg);
+    background-position: center center;
+    background-color: #333;
+    width:20px;
+}
+
+#mg {
+	background-size:20px 40px;
+	background-repeat: no-repeat;
+	background-image: url(../img/magnifyingglass.svg);
+	background-position: center center;
+	background-color: #333;
+	width: 20px;
+	height: 44px;
+}
+
+#cart {
+	background-size:20px 40px;
+	background-repeat: no-repeat;
+	background-image: url(../img/cart.svg);
+	background-position: center center;
+	background-color: #333;
+	width: 20px;
+	height: 44px;
+}
+/* END OF NAVIGATION*/
+
+
+
+
+/*IPHONE 8 HEADER*/
+h1 {
+	margin-top: 120px;
+	font-size: 44px;
+	text-align: center;
+	padding-top: 75px;
+}
+
+.ip8 {
+	text-align: center;
+	background-repeat: no-repeat;
+	height: 2000px;
+	background-color: #f9f0eb;
+
+
+}
